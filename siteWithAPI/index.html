@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Today's Weather</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="header">
+      <img src="sun.png" alt="sun" height=50px width=50px" />
+      <h1>Today's Weather</h1>
+    </div>
+
+    <div class="dodo">
+      <h2 class="box">Current weather for: <span id="location"></span></h2>
+      <h2 class="box">Temperature: <span id="temperature"></span> degrees</h2>
+      <h2 class="box">Wind: <span id="wind"></span> mph</h2>
+      <h2 class="box">Sky conditions: <span id="sky"></span></h2>
+    </div>
+
+    <!-- These are the JaveScript LINK -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.js"
+      integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
